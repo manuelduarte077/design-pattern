@@ -59,7 +59,7 @@ const Sidebar = (props: DrawerContentComponentProps) => {
           borderWidth={3}
         />
         <Heading mb={4} size="xl">
-          Takuya Matsuyama
+          Manuel Duarte
         </Heading>
         <MenuButton
           active={currentRoute === 'Main'}
@@ -76,9 +76,11 @@ const Sidebar = (props: DrawerContentComponentProps) => {
           About
         </MenuButton>
       </VStack>
+
       <Center>
         <ThemeToggle />
       </Center>
+      
     </AnimatedColorBox>
   )
 }

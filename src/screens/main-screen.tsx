@@ -15,9 +15,15 @@ const initialData = [
   },
   {
     id: shortid.generate(),
-    subject: 'Make a React Native tutorial',
+    subject: 'Make a Flutter tutorial',
     done: false
-  }
+  },  
+  {
+    id: shortid.generate(),
+    subject: 'Make a Kotlin tutorial',
+    done: false
+  },
+  
 ]
 
 export default function MainScreen() {
@@ -66,7 +72,7 @@ export default function MainScreen() {
       w="full"
     >
       <Masthead
-        title="What's up, Takuya!"
+        title="What's up, Manuel!"
         image={require('../assets/masthead.png')}
       >
         <NavBar />
@@ -94,7 +100,7 @@ export default function MainScreen() {
         position="absolute"
         renderInPortal={false}
         size="sm"
-        icon={<Icon color="red" as={<AntDesign name="plus" />} size="sm" />}
+        icon={<Icon color="white" as={<AntDesign name="plus" />} size="sm" />}
         colorScheme={useColorModeValue('blue', 'darkBlue')}
         bg={useColorModeValue('blue.500', 'blue.400')}
         onPress={() => {
