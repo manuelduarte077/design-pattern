@@ -1,6 +1,11 @@
-Smoothly Animated ToDo App built with React Native
+# Smoothly Animated ToDo App built with React Native
 
+![Todo ScreenShots](./doc/home.png) | ![Todo ScreenShots](./doc/sidebar.png) | ![Todo ScreenShots](./doc/about.png) 
+-----------------------------------|------------------------------------|-----------------------------------
+home                               | sidebar                            | about                             
 
+![Todo ScreenShots](./doc/home-light.png) | ![Todo ScreenShots](./doc/sidebar-light.png) | ![Todo ScreenShots](./doc/about-light.png) 
+-----------------------------------|------------------------------------|-----------------------------------
 ## Stack
 
 - [React Native](https://reactnative.dev/) - ReactJS-based framework that can use native platform capabilities
@@ -31,3 +36,4 @@ This project can be run from the Expo client app.
 yarn
 yarn start
 ```
+
