@@ -1,11 +1,11 @@
 # Smoothly Animated ToDo App built with React Native
 
-![Thumbnail](./doc/home.png)
-![Thumbnail](./doc/sidebar.png)
+![Todo ScreenShots](./doc/home.png) | ![Todo ScreenShots](./doc/sidebar.png) | ![Todo ScreenShots](./doc/about.png) 
+-----------------------------------|------------------------------------|-----------------------------------
+home                               | sidebar                            | about                             
 
-Try the demo on [![Expo Go](./doc/expo-logo.svg)](https://expo.dev/@craftzdog/animated-todo)
-
-
+![Todo ScreenShots](./doc/home-light.png) | ![Todo ScreenShots](./doc/sidebar-light.png) | ![Todo ScreenShots](./doc/about-light.png) 
+-----------------------------------|------------------------------------|-----------------------------------
 ## Stack
 
 - [React Native](https://reactnative.dev/) - ReactJS-based framework that can use native platform capabilities
