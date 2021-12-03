@@ -94,7 +94,7 @@ export default function MainScreen() {
         position="absolute"
         renderInPortal={false}
         size="sm"
-        icon={<Icon color="white" as={<AntDesign name="plus" />} size="sm" />}
+        icon={<Icon color="red" as={<AntDesign name="plus" />} size="sm" />}
         colorScheme={useColorModeValue('blue', 'darkBlue')}
         bg={useColorModeValue('blue.500', 'blue.400')}
         onPress={() => {
