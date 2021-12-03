@@ -1,13 +1,6 @@
 import * as React from 'react'
-import {
-  Text,
-  Box,
-  Center,
-  VStack,
-  useColorModeValue 
-} from 'native-base'
+import { Text, Box, Center, VStack, useColorModeValue } from 'native-base'
 import ThemeToggle from '../components/theme-toggle'
-
 
 export default function MainScreen() {
   return (
