@@ -1,14 +1,32 @@
-node_modules/
-.expo/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
-
 # macOS
 .DS_Store
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+# Virtual Environments
+venv/
+env/
+# Jupyter Notebook
+.ipynb_checkpoints
+# Logs
+*.log
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg-info/
+*.egg
+# Distribution / packaging
+dist/
+build/
+*.whl
+# Test coverage
+.coverage
+.coverage.*
+# Pytest cache
+.pytest_cache/
+# PyCharm
+.idea/
+# VS Code
+.vscode/
